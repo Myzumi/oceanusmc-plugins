@@ -1,14 +1,17 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: Ingame Feature Request
+about: Suggest changes to our Ingame Server
 title: "[Feature Request]"
-labels: "-a New Issue, enhancement"
+labels: "-a New Issue, enhancement, -a Ingame"
 assignees: ''
 
 ---
 
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+
+**What server is your suggestion Related? (Lobby/Kitpvp ....)**
+The Server name that you want your suggestion applied
 
 **Describe the solution you'd like**
 A clear and concise description of what you want to happen.
