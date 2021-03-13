@@ -41,6 +41,7 @@ public class SetMaxHealthCommand implements CommandExecutor {
                 }, 40L); //20 Tick (1 Second) delay before run() is called
             }
         }else {
+            System.out.println(sender.getName() + "issued server command: /setmaxhealth " + args.join(" "));
             System.out.println("Someone tried to run this command inagme (NOT CONSOLE)");
         }
         return false;
