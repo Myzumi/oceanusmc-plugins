@@ -1,0 +1,8 @@
+name: RequireTHISArrow
+version: ${project.version}
+main: requirethisarrow.RequireTHISArrow
+api-version: 1.16
+
+commands:
+  rqtad:
+    description: Toggles Debug Mode
