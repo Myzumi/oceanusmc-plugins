@@ -23,6 +23,7 @@ public class ItemUseEvent implements Listener {
         ItemStack item = p.getInventory().getItemInMainHand();
         ItemMeta itemm = item.getItemMeta();
         if (itemm.getDisplayName().equals("§fSpawn Wolf") && item.getType().equals(Material.WOLF_SPAWN_EGG)) {
+            if (e.getClickedBlock() == null) return;
             e.setCancelled(true);
             if (!p.getGameMode().equals(GameMode.CREATIVE)) item.setAmount(item.getAmount() - 1);
             Location block = e.getClickedBlock().getLocation();
