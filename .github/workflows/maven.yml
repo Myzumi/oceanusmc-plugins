@@ -26,5 +26,5 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: Kitpvp
-        path: /home/runner/work/oceanusmc-plugins/oceanusmc-plugins/target/OceanusMC-KitPVP-1.0-shaded.jar
+        path: /home/runner/work/oceanusmc-plugins/oceanusmc-plugins/target/OceanusMC-KitPVP-1.0.jar
 
