@@ -1,0 +1,11 @@
+name: OceanusMCKitPVP
+version: 1.0
+main: oceanusmckitpvp.OceanusMCKitPVP
+api-version: 1.16
+depend: ["PlaceholderAPI"]
+
+commands:
+  build:
+    description: Toggles Build Mode
+  setmaxhealth:
+    desciption: Sets the max Health

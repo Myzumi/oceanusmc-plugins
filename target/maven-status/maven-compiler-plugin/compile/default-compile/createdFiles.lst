@@ -1,0 +1,12 @@
+oceanusmckitpvp\Commands\ClearDogsCommand.class
+oceanusmckitpvp\Commands\SetMaxHealthCommand$1.class
+oceanusmckitpvp\Commands\SetMaxHealthCommand.class
+oceanusmckitpvp\Events\OnPlayerRespawnEvent.class
+oceanusmckitpvp\Commands\TestComamnd.class
+oceanusmckitpvp\OceanusMCKitPVP.class
+oceanusmckitpvp\Events\BlockPlaceEvent.class
+oceanusmckitpvp\Events\ArrowHitEvent.class
+oceanusmckitpvp\Events\BlockBreakEvent.class
+oceanusmckitpvp\Commands\BuildCommand.class
+oceanusmckitpvp\Events\ItemUseEvent.class
+oceanusmckitpvp\Events\EntityHitEvent.class
