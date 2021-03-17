@@ -17,6 +17,7 @@
     </properties>
 
     <build>
+        <finalName>OceanusMC-KitPVP-{version}-compiled</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
