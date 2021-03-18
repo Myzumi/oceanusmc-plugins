@@ -37,9 +37,9 @@ public class SetMaxHealthCommand implements CommandExecutor {
                     @Override
                     public void run() {
                         p.getAttribute(Attribute.GENERIC_MAX_HEALTH).setBaseValue(value);
-                        p.setHealth(value * 2);
+                        Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "/cmi effect " + sender.getName() + " heal 2");
                     }
-                }, 40L); //20 Tick (1 Second) delay before run() is called
+                }, 40L); //40 Tick (2 Second) delay before run() is called
             }
         }else {
             String joined = String.join(" ", args);
