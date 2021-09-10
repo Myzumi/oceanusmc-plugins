@@ -34,7 +34,7 @@ public final class OceanusMCKitPVP extends JavaPlugin {
         pluginManager.registerEvents(new BlockPlaceEvent(), this);
         pluginManager.registerEvents(new OnPlayerRespawnEvent(), this);
         getCommand("build").setExecutor(new BuildCommand());
-        getCommand("setmaxhealth").setExecutor(new SetMaxHealthCommand());
+        getCommand("ocsetmaxhp").setExecutor(new SetMaxHealthCommand());
         getCommand("cleardogs").setExecutor(new ClearDogsCommand());
     }
 

@@ -7,7 +7,7 @@ depend: ["PlaceholderAPI"]
 commands:
   build:
     description: Toggles Build Mode
-  setmaxhealth:
+  ocsetmaxhp:
     desciption: Sets the max Health
   cleardogs:
     desciption: None
